@@ -29,7 +29,7 @@ public class FaceBookNew extends BaseClass{
 	}
 	@Test(priority=3)
 	private void invalidCombination2() throws IOException {
-		browsersssLaunch("chrome");
+		browsersssLaunch("edge");
 		urlLanch("https://www.facebook.com/");
 		PomClass de=new PomClass();
 		sendKeys(de.getUsername(), readExcel("FaceBookNew", "FaceBook", 3, 0));
@@ -38,7 +38,7 @@ public class FaceBookNew extends BaseClass{
 	}
 	@Test(priority=4)
 	private void invalidCombination3() throws IOException {
-		browsersssLaunch("chrome");
+		browsersssLaunch("edge");
 		urlLanch("https://www.facebook.com/");
 		PomClass de=new PomClass();
 		sendKeys(de.getUsername(), readExcel("FaceBookNew", "FaceBook", 4, 0));
